@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header {
+  display: block;
+  text-align: center;
+}
+
+#title {
+  font-weight: 600;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-style: italic;
+}
+
+#img-div {
+  display: block;
+  max-width: 728px;
+  height: 360px;
+  margin: 0 auto;
+  background-color:rgb(170, 159, 145) ;
+  padding: 10px;
+}
+
+#img-p {
+  margin-top: -5px;
+  padding: 0;
+  text-align: center;
+}
