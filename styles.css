@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
+  background-color: rgb(131, 128, 126);
 }
 
 .header {
@@ -14,9 +15,11 @@ body {
 
 #title {
   font-weight: 600;
+  font-size: 2.5rem;
 }
 
 .subtitle {
+  margin-top: -28px;
   font-weight: 400;
   font-style: italic;
 }
@@ -26,12 +29,12 @@ body {
   max-width: 728px;
   height: 360px;
   margin: 0 auto;
-  background-color:rgb(170, 159, 145) ;
+  background-color:rgb(65, 63, 60) ;
   padding: 10px;
 }
 
 #img-p {
-  margin-top: -5px;
+  margin-top: -6px;
   padding: 0;
   text-align: center;
 }
