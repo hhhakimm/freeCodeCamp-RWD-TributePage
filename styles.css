@@ -38,3 +38,10 @@ body {
   padding: 0;
   text-align: center;
 }
+
+.tribute-info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 1px solid black;
+}
