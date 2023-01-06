@@ -11,6 +11,7 @@ body {
 .header {
   display: block;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 #title {
@@ -30,18 +31,63 @@ body {
   height: 360px;
   margin: 0 auto;
   background-color:rgb(65, 63, 60) ;
-  padding: 10px;
+  box-shadow: -10px -8px 13px black;
+  border-radius: 10px;
+}
+
+#image {
+  border-radius: 10px;
 }
 
 #img-p {
+  font-weight: 400;
+  font-style: italic;
   margin-top: -6px;
   padding: 0;
   text-align: center;
 }
 
-.tribute-info {
+#tribute-info {
   display: flex;
   flex-direction: column;
+  text-align: center;
   width: 50%;
-  border: 1px solid black;
+  margin: 50px auto 0 auto;
+}
+
+#tribute-content {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  width: 80%;
+  margin: 30px auto 0 auto;
+  text-indent: 2rem;
+}
+
+#tribute-content > div > h2 {
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(65, 63, 60);
+  margin: 60px auto 0 auto;
+  padding: 2px;
+}
+
+#footer {
+  text-align: center;
+  color: #f5f5f5;
+}
+
+#footer > p > a {
+  color: #bebebe;
+  text-decoration: none ;
+}
+
+#footer > p > a:visited {
+  color: #bebebe;
+}
+
+#footer > p > a:hover {
+  color: rgb(20, 18, 18)
 }
