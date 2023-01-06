@@ -36,13 +36,14 @@ body {
 }
 
 #image {
+  display: block;
   border-radius: 10px;
+  max-width: 100%;
 }
 
-#img-p {
+#img-caption {
   font-weight: 400;
   font-style: italic;
-  margin-top: -6px;
   padding: 0;
   text-align: center;
 }
@@ -68,26 +69,26 @@ body {
   text-align: center;
 }
 
-footer {
+#footer {
   background-color: rgb(65, 63, 60);
   margin: 60px auto 0 auto;
   padding: 2px;
-}
-
-#footer {
+  font-size: 0.8rem;
   text-align: center;
   color: #f5f5f5;
+  font-weight: 400;
 }
 
-#footer > p > a {
+#tribute-link {
   color: #bebebe;
-  text-decoration: none ;
+  text-decoration: none;
+  font-size: 0.9rem;
 }
 
-#footer > p > a:visited {
+#tribute-link:visited {
   color: #bebebe;
 }
 
-#footer > p > a:hover {
+#tribute-link:hover {
   color: rgb(20, 18, 18)
 }
